@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: black;
+    background-image: url(../imagens/pequena02.jpg);
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
+
+main {
+    background-color: black;
+}
