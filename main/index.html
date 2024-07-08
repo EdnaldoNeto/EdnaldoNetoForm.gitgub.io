@@ -10,6 +10,89 @@
     
     <main>
         <form action="x" method="post" autocomplete="on">
+            
+            <div class="campo">
+                <label for="inome">Nome:</label>
+                <input type="text" name="name" id="iname">
+            </div>
+
+            <div class="campo">
+                <label for="iemail">email:</label>
+                <input type="email" name="email" id="iemail">
+            </div>
+
+            <div class="campo">
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade">
+            </div>
+
+            <div class="campo">
+                <label for="iareadeatuacao">Qual é a sua área de atuação:</label>
+
+                <select name="areadeatuacao" id="iareadeatuacao">
+                    <option value="" selected>---Escolha---</option>
+                    <option value="dev_web">Desenvolvedor Web</option>
+                    <option value="dev_software">Desenvolvedor de Software</option>
+                    <option value="dev_app">Desenvolvedor de App</option>
+                    <option value="banco_dados">Banco de Dados</option>
+                    <option value="seguranca_informacao">Segurança da Informação</option>
+                    <option value="qualidade_software">Qualidade de Software</option>
+                    <option value="suporte_tecnico">Suporte Técnico</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <p>Sexo:</p>
+
+                <input type="radio" name="Sexo" id="IM">
+                <label for="IM">Masculino</label><br>
+               
+                <input type="radio" name="Sexo" id="IF">
+                <label for="IF">Feminino</label>
+            </div>
+
+            <div class="campo">
+                <label for="ilinguagem">Sua principal linguagem de programção</label>
+
+                <select name="linguagem" id="ilinguagem">
+                    <option value="" selected>Linguagens de Programação</option>
+                    <option value="assembly">Assembly</option>
+                    <option value="c">C</option>
+                    <option value="c#">C#</option>
+                    <option value="c++">C++</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="php">PHP</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <p>Quais foram suas formas de aprendizado:</p>
+
+                <input type="checkbox" name="youtube" id="iyoutube">
+                <label for="iyoutube">YouTube</label><br>
+
+                <input type="checkbox" name="cursofree" id="icursofree">
+                <label for="icursofree">Cursos Gratuitos</label><br>
+
+                <input type="checkbox" name="cursopay" id="icursopay">
+                <label for="icursopay">Cursos Pagos</label><br>
+
+                <input type="checkbox" name="document" id="idocument">
+                <label for="idocument">Documentações</label><br>
+
+                <input type="checkbox" name="escola" id="iescola">
+                <label for="iescola">Escola</label><br>
+
+                <input type="checkbox" name="faculdade" id="ifaculdade">
+                <label for="ifaculdade">Faculdade</label>
+            </div>
+
+            <div class="campo">
+                <p>Fale um pouco um sobre você:</p>
+                <textarea name="" id=""></textarea>
+            </div>
 
         </form>
     </main>
