@@ -15,16 +15,37 @@ body {
 
 }
 
+header > h1 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
 main {
     background-color: rgba(128, 128, 128, 0.164);
-    margin: 150px 30px 0px 30px;
+    margin: 100px 30px 0px 30px;
+
 }
 
 div.campo {
     color: white;
     margin-top: 20px;
-
 }
 
+div > label {
+    display: block;
+}
 
+main > form > input#enviar {
+    width: 350px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    background-color: #41D95F;
+}
+
+main > form > input#enviar:hover {
+    background-color: #1eaf33;
+}
 

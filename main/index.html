@@ -7,29 +7,33 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+
+    <header>
+        <h1>Preencha o formulário</h1>
+    </header>
     
     <main>
-        <form action="x" method="post" autocomplete="on">
+        <form action="x" method="get" autocomplete="on">
             
             <div class="campo">
-                <label for="inome">Nome:</label>
-                <input type="text" name="name" id="iname">
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname" required placeholder="Nome Completo">
             </div>
 
             <div class="campo">
-                <label for="iemail">email:</label>
-                <input type="email" name="email" id="iemail">
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required placeholder="Seu E-mail">
             </div>
 
             <div class="campo">
                 <label for="iidade">Idade:</label>
-                <input type="number" name="idade" id="iidade">
+                <input type="number" name="idade" id="iidade" required value="0" max="60" min="16">
             </div>
 
             <div class="campo">
                 <label for="iareadeatuacao">Qual é a sua área de atuação:</label>
 
-                <select name="areadeatuacao" id="iareadeatuacao">
+                <select name="areadeatuacao" id="iareadeatuacao" >
                     <option value="" selected>---Escolha---</option>
                     <option value="dev_web">Desenvolvedor Web</option>
                     <option value="dev_software">Desenvolvedor de Software</option>
@@ -42,9 +46,9 @@
             </div>
 
             <div class="campo">
-                <p>Sexo:</p>
+                <label for="">Sexo:</label><br>
 
-                <input type="radio" name="Sexo" id="IM">
+                <input type="radio" name="Sexo" id="IM" checked>
                 <label for="IM">Masculino</label><br>
                
                 <input type="radio" name="Sexo" id="IF">
@@ -91,8 +95,10 @@
 
             <div class="campo">
                 <label for="imsg">Fale um pouco sobre você:</label><br>
-                <textarea name="msg" id="imsg"></textarea>
+                <textarea name="msg" id="imsg" required placeholder="Digite Aqui"></textarea>
             </div>
+
+            <input id="enviar" type="submit" value="Enviar">
 
         </form>
     </main>
