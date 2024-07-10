@@ -11,6 +11,7 @@ body {
     background-image: url(../imagens/img.pequena.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 
 }
@@ -18,23 +19,63 @@ body {
 header > h1 {
     color: white;
     text-align: center;
-    margin-top: 200px;
+    margin: 105px 0px 60px 0px;
 
 }
 
 main {
     background-color: rgba(128, 128, 128, 0.164);
-    margin: 100px 30px 0px 30px;
+    margin: auto;
+    padding-top: 5px;
+    border-radius: 5px 5px 0px 0px;
+    width: 500px;
 
 }
 
-div.campo {
+main > form >  div.campo {
     color: white;
-    margin-top: 20px;
+    margin: 40px 70px 50px 50px;
+
 }
 
 div > label {
     display: block;
+    margin-bottom: 7px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > label.inline {
+    display: inline;
+    
+}
+
+div > input.line {
+    width: 380px;
+    height: 45px;
+    border-radius: 7px;
+    text-indent: 20px;
+
+}
+
+div > input#iidade {
+    width: 120px;
+    height: 45px;
+    border-radius: 7px;
+    text-indent: 20px;
+}
+
+div > select.escolha {
+    width: 380px;
+    height: 45px;
+    border-radius: 7px;
+    text-indent: 20px;
+}
+
+div > input.box {
+    width: 18px;
+    height: 18px;
+
 }
 
 main > form > input#enviar {
@@ -47,5 +88,6 @@ main > form > input#enviar {
 
 main > form > input#enviar:hover {
     background-color: #1eaf33;
+    cursor: pointer;
 }
 

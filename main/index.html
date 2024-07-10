@@ -17,24 +17,24 @@
             
             <div class="campo">
                 <label for="iname">Nome:</label>
-                <input type="text" name="name" id="iname" required placeholder="Nome Completo">
+                <input class="line" type="text" name="name" id="iname" required placeholder="Nome Completo">
             </div>
 
             <div class="campo">
                 <label for="iemail">E-mail:</label>
-                <input type="email" name="email" id="iemail" required placeholder="Seu E-mail">
+                <input class="line" type="email" name="email" id="iemail" required placeholder="Seu E-mail">
             </div>
 
             <div class="campo">
                 <label for="iidade">Idade:</label>
-                <input type="number" name="idade" id="iidade" required value="0" max="60" min="16">
+                <input  type="number" name="idade" id="iidade" required value="0" max="60" min="16">
             </div>
 
             <div class="campo">
                 <label for="iareadeatuacao">Qual é a sua área de atuação:</label>
 
-                <select name="areadeatuacao" id="iareadeatuacao" >
-                    <option value="" selected>---Escolha---</option>
+                <select class="escolha" name="areadeatuacao" id="iareadeatuacao" >
+                    <option value="" selected> Selecione sua Área </option>
                     <option value="dev_web">Desenvolvedor Web</option>
                     <option value="dev_software">Desenvolvedor de Software</option>
                     <option value="dev_app">Desenvolvedor de App</option>
@@ -46,19 +46,19 @@
             </div>
 
             <div class="campo">
-                <label for="">Sexo:</label><br>
+                <label for="">Sexo:</label>
 
-                <input type="radio" name="Sexo" id="IM" checked>
-                <label for="IM">Masculino</label><br>
+                <input class="box" type="radio" name="Sexo" id="IM" checked>
+                <label class="inline" for="IM">Masculino</label><br>
                
-                <input type="radio" name="Sexo" id="IF">
-                <label for="IF">Feminino</label>
+                <input class="box" type="radio" name="Sexo" id="IF">
+                <label class="inline" for="IF">Feminino</label>
             </div>
 
             <div class="campo">
                 <label for="ilinguagem">Sua principal linguagem de programção</label>
 
-                <select name="linguagem" id="ilinguagem">
+                <select class="escolha" name="linguagem" id="ilinguagem">
                     <option value="" selected>Linguagens de Programação</option>
                     <option value="assembly">Assembly</option>
                     <option value="c">C</option>
@@ -72,29 +72,29 @@
             </div>
 
             <div class="campo">
-                <p>Quais foram suas formas de aprendizado:</p>
+                <label for="">Quais foram suas formas de aprendizado:</label>
 
-                <input type="checkbox" name="youtube" id="iyoutube">
-                <label for="iyoutube">YouTube</label><br>
+                <input class="box" type="checkbox" name="youtube" id="iyoutube">
+                <label class="inline" for="iyoutube">YouTube</label><br>
 
-                <input type="checkbox" name="cursofree" id="icursofree">
-                <label for="icursofree">Cursos Gratuitos</label><br>
+                <input class="box" type="checkbox" name="cursofree" id="icursofree">
+                <label class="inline" for="icursofree">Cursos Gratuitos</label><br>
 
-                <input type="checkbox" name="cursopay" id="icursopay">
-                <label for="icursopay">Cursos Pagos</label><br>
+                <input class="box" type="checkbox" name="cursopay" id="icursopay">
+                <label class="inline" for="icursopay">Cursos Pagos</label><br>
 
-                <input type="checkbox" name="document" id="idocument">
-                <label for="idocument">Documentações</label><br>
+                <input class="box" type="checkbox" name="document" id="idocument">
+                <label class="inline" for="idocument">Documentações</label><br>
 
-                <input type="checkbox" name="escola" id="iescola">
-                <label for="iescola">Escola</label><br>
+                <input class="box" type="checkbox" name="escola" id="iescola">
+                <label class="inline" for="iescola">Escola</label><br>
 
-                <input type="checkbox" name="faculdade" id="ifaculdade">
-                <label for="ifaculdade">Faculdade</label>
+                <input class="box" type="checkbox" name="faculdade" id="ifaculdade">
+                <label class="inline" for="ifaculdade">Faculdade</label>
             </div>
 
             <div class="campo">
-                <label for="imsg">Fale um pouco sobre você:</label><br>
+                <label for="imsg">Fale um pouco sobre você:</label>
                 <textarea name="msg" id="imsg" required placeholder="Digite Aqui"></textarea>
             </div>
 
