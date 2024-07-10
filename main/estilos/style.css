@@ -9,9 +9,9 @@
     box-sizing: border-box ;
 }
 
-body {
+body, html {
     background-color: black;
-    background-image: url(../imagens/img.pequena.jpg);
+    background-image: url(../imagens/pexels-spdel-3375997.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -19,11 +19,20 @@ body {
 
 }
 
+header {
+}
+
 header > h1 {
     color: white;
     text-align: center;
-    margin: 105px 0px 60px 0px;
+    padding-top: 50px;
+}
 
+header > p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 main {
@@ -32,12 +41,13 @@ main {
     padding-top: 5px;
     border-radius: 5px 5px 0px 0px;
     width: 500px;
+    height: 1400px;
 
 }
 
 main > form >  div.campo {
     color: white;
-    margin: 40px 70px 50px 50px;
+    margin: 40px 70px 50px 60px;
 
 }
 
@@ -50,7 +60,10 @@ div > label {
 
 div > label.inline {
     display: inline;
-    
+}
+
+div > input {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 
 div > input.line {
@@ -58,6 +71,7 @@ div > input.line {
     height: 45px;
     border-radius: 7px;
     text-indent: 20px;
+    font-size: 0.9em;
 
 }
 
@@ -66,34 +80,43 @@ div > input#iidade {
     height: 45px;
     border-radius: 7px;
     text-indent: 20px;
+    font-size: 0.9em;
 }
+
 
 div > select.escolha {
     width: 380px;
     height: 45px;
     border-radius: 7px;
     text-indent: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    font-size: 0.9em;
+
 }
 
 div > input.box {
     width: 18px;
     height: 18px;
-
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 
 div > textarea {
     width: 380px;
     height: 150px;
-    border-radius: 7px;
     text-indent: 20px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+
 }
 
 main > form > input#enviar {
-    width: 350px;
+    width: 380px;
     height: 55px;
     display: block;
     margin: auto;
     background-color: #28D90D;
+    color: white;
 }
 
 main > form > input#enviar:hover {
