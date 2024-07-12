@@ -11,21 +11,20 @@
 
 body, html {
     background-color: black;
-    background-image: url(../imagens/pexels-spdel-3375997.jpg);
+    background-image: url(../imagens/body.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: cover ;
+    background-position:  center center;
     background-attachment: fixed;
 
 }
 
-header {
-}
 
 header > h1 {
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 70px;
+    font-size: 2.5em;
 }
 
 header > p {
@@ -33,10 +32,11 @@ header > p {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 70px;
+    font-size: 1.3em;
 }
 
 main {
-    background-color: rgba(128, 128, 128, 0.164);
+    background-color: rgba(0, 0, 0, 0.253);
     margin: auto;
     padding-top: 5px;
     border-radius: 5px 5px 0px 0px;
@@ -115,12 +115,12 @@ main > form > input#enviar {
     height: 55px;
     display: block;
     margin: auto;
-    background-color: #28D90D;
+    background-color: #28d90dc0;
     color: white;
 }
 
 main > form > input#enviar:hover {
-    background-color: #43c52f;
+    background-color: #205c17;
     cursor: pointer;
 }
 
