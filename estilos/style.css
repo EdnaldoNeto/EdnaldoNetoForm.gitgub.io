@@ -14,14 +14,14 @@ body, html {
     background-image: url(../imagens/body.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
-    background-position:  center center;
+    background-position:  center;
     background-attachment: fixed;
 
 }
 
 
 header > h1 {
-    color: white;
+    color: rgb(255, 0, 0);
     text-align: center;
     padding-top: 70px;
     font-size: 2.5em;
