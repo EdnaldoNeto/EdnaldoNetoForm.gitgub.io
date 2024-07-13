@@ -44,6 +44,7 @@ main {
     width: 420px;
     height: 1400px;
     overflow-y: auto;
+    position: relative;
 
 }
 
