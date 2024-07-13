@@ -40,7 +40,7 @@ main {
     margin: auto;
     padding-top: 5px;
     border-radius: 5px 5px 0px 0px;
-    width: 500px;
+    width: 420px;
     height: 1400px;
 
 }
@@ -67,7 +67,7 @@ div > input {
 }
 
 div > input.line {
-    width: 380px;
+    width: 310px;
     height: 45px;
     border-radius: 7px;
     text-indent: 20px;
@@ -85,7 +85,7 @@ div > input#iidade {
 
 
 div > select.escolha {
-    width: 380px;
+    width: 310px;
     height: 45px;
     border-radius: 7px;
     text-indent: 20px;
@@ -102,7 +102,7 @@ div > input.box {
 }
 
 div > textarea {
-    width: 380px;
+    width: 310px;
     height: 150px;
     text-indent: 20px;
     padding-top: 10px;
@@ -111,7 +111,7 @@ div > textarea {
 }
 
 main > form > input#enviar {
-    width: 380px;
+    width: 360px;
     height: 55px;
     display: block;
     margin: auto;
