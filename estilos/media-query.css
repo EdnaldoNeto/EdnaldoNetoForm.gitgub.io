@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/** Configurações para tablets e desktop **/
+
+@media screen and (min-width: 768px) {
+    header > h1 {
+        font-size: 3em;        
+    }
+    
+    header > p {
+        font-size: 1.4em;
+    }
+
+    main {
+        width: 600px;
+    }
+
+    div > label {
+        font-size: 1.1em;
+    }
+
+    div > input.line {
+        width: 475px;
+        height: 50px;
+
+    }
+
+    div > input#iidade {
+        height: 50px;
+    }
+
+    div > select.escolha {
+        width: 475px;
+        height: 50px;
+    }
+
+    div > textarea {
+        width: 475px;
+    }
+
+    main > form > input#enviar {
+        width: 475px;
+        height: 60px;
+    }
+
+}
